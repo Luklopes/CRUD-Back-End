@@ -41,7 +41,7 @@ app.use(bodyParser.urlencoded({ extended: true })); //.use é uma propriedade q 
 app.use(bodyParser.json());
 
 //Definindo a porta onde será executada a nossa api:
-var port = process.env.port || 8000;
+var port = process.env.PORT || 8000;
 
 //Rotas da nossa API:
 //=============================================================================
